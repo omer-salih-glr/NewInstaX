@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.3769230769230769" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3769230769230769" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/activity_main.xml" value="0.2578125" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/ayarlar_insta_profil.xml" value="0.36666666666666664" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/fragment_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/fragment_home.xml" value="0.3109375" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/fragment_insta__giris.xml" value="0.36666666666666664" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/fragment_insta_giris.xml" value="0.19270833333333334" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/fragment_notifications.xml" value="0.22" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/fragment_search_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/fragment_welcome.xml" value="0.36666666666666664" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/insta_profil.xml" value="0.20520833333333333" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/navbar_ayarlar.xml" value="0.36666666666666664" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/navbar_hikayelerim.xml" value="0.20520833333333333" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/navbar_instagiris.xml" value="0.36666666666666664" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/navbar_profilim.xml" value="0.3109375" />
+        <entry key="..\:/androidcalisma/NewInstaX/app/src/main/res/layout/welcome_gecis.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

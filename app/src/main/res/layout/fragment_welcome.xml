@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/welcome_background"
+    tools:context=".ui.welcome.WelcomeFragment">
+
+    <ImageView
+        android:id="@+id/question_mak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_question_mark"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InstaY"
+        android:textSize="17dp"
+        android:textColor="@color/text"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="InvalidId" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Merak ediyor musun?"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        tools:ignore="InvalidId" />
+
+    <include
+        android:id="@+id/layoutCategories"
+        layout="@layout/welcome_gecis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="@string/hikayelerini_izledi_inden_asla_haberleri_olmayacak"
+        android:textColor="@color/text"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutCategories" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        app:cardBackgroundColor="@color/insta_back"
+        app:cardCornerRadius="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+
+            android:id="@+id/insta_giris"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:layout_width="335dp"
+                android:layout_height="75dp"
+                app:cardCornerRadius="22dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                android:background="@drawable/login_buton_background"
+                app:layout_constraintStart_toStartOf="parent">
+
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_insta" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="24dp"
+                    android:text="Instagram ile giriş yap"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="Şifren yada kullanıcı bilgilerin kayıt edilmez"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="115dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="InstaXPro giriş bilgilerinizi göremez ve kullanamaz. Tüm bilgileriniz Instagram’ın güvenli sunucularında tutulmaktadır. InstaXPro bu verilere erişemez."
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/text"
+            android:layout_marginTop="60dp"
+
+            />
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

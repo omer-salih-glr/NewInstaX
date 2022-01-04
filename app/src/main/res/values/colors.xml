@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_alt_bar">#14171C</color>
+    <color name="background">#1A1E24</color>
+    <color name="navbar_background">#000000</color>
+    <color name="altbar_aktif_color">#868CA9</color>
+    <color name="text">#9CA9B7</color>
+    <color name="welcome_background">#1A1E24</color>
+    <color name="insta_back">#1E232D</color>
+    <color name="insta_girris">#C082FF</color>
+    <color name="insta_giris_navbar">#1C1F2D</color>
+    <color name="home_takip_background">#292E37</color>
+    <color name="new_takipci">#009DFF</color>
+    <color name="takip_cikan">#B314DB</color>
+    <color name="hikaye_izle_cizgi">#313949</color>
+    <color name="hikaye_izle">#9CA1B7</color>
+    <color name="buton_takip">#7E36FF</color>
+    <color name="aktif_olmayan">#13161A</color>
+    <color name="tum_hesaplardan_cik">#23282F</color>
+    <color name="insta_name_color">#D9DEF3</color>
+
+    <color name="apc_indicator_current_default">#757575</color>
+    <color name="apc_indicator_current_pressed">#9e9e9e</color>
+    <color name="apc_indicator_normal_default">#bdbdbd</color>
+    <color name="apc_indicator_normal_pressed">#eeeeee</color>
+
+</resources>

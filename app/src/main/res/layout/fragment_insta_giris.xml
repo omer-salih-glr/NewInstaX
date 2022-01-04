@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.insta_gir.Insta_Giris">
+
+    <include
+        android:id="@+id/insta_giris_navbar"
+        layout="@layout/navbar_instagiris" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_weight=".5"
+        android:layout_height="0dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        app:cardBackgroundColor="@color/insta_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Tüm özelliklerden yararlan."
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="InstaXPro giriş bilgilerinizi göremez ve kullanamaz. Tüm bilgileriniz Instagram’ın güvenli sunucularında tutulmaktadır. InstaXPro bu verilere erişemez."
+            android:textColor="@color/text"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

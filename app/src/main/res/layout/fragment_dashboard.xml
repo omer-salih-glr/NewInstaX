@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <include
+        android:id="@+id/hikayelerim"
+        layout="@layout/navbar_hikayelerim" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/hikaye_card"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:cardBackgroundColor="@color/hikaye_izle_cizgi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hikayelerim">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/main_duzen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="20dp">
+
+
+                <LinearLayout
+                    android:id="@+id/profil_foto_yol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <include
+                        android:id="@+id/profil_foto"
+                        layout="@layout/insta_profil" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="45dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="122"
+                        android:textColor="@color/white"
+                        android:textSize="22dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gönderi"
+                        android:textColor="@color/text"
+                        android:textSize="12dp"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="45dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5K"
+                        android:textColor="@color/white"
+                        android:textSize="22dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Takipçi"
+                        android:textColor="@color/text"
+                        android:textSize="12dp"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="45dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="94"
+                        android:textColor="@color/white"
+                        android:textSize="22dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Takip"
+                        android:textColor="@color/text"
+                        android:textSize="12dp"
+
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_duzen"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Nazlıcan Güvenoğlu"
+                android:textColor="@color/white"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/biyo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:text="The Best Creatives in the World.
+            🍓🤡🦒🍊🐉🌞🌷🔥🧩🪐🧲🧊🥭🪁⛓♥️
+Submissions  Business inquiries:
+🔮contact@artsxdesign.com"
+                android:textColor="@color/text"
+                android:textSize="14dp" />
+
+            <FrameLayout
+                android:id="@+id/cizgilk"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/biyo"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="183dp"
+                android:background="@color/hikaye_izle" />
+
+            <LinearLayout
+                android:layout_width="355dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/main_duzen"
+                android:layout_marginTop="85dp"></LinearLayout>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

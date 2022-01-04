@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewInstaX</string>
+    <string name="title_home">Profilim</string>
+    <string name="title_dashboard">Hikayelerim</string>
+    <string name="title_notifications">Ayarlar</string>
+    <string name="hikayelerini_izledi_inden_asla_haberleri_olmayacak">Hikayelerini izlediğinden asla haberleri olmayacak.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hikayeleri_izlerken_profil_ismin_g_z_kmez">* Hikayeleri izlerken profil ismin gözükmez.</string>
+
+</resources>
